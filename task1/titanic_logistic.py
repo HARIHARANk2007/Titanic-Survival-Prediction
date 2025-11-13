@@ -1,3 +1,9 @@
+"""
+Titanic Survival Prediction using Logistic Regression
+
+This script loads the Titanic dataset, preprocesses it, trains a logistic regression model,
+and evaluates its performance with visualizations.
+"""
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
